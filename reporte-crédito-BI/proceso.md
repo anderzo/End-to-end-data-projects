@@ -6,9 +6,9 @@
 
 # Limpieza y Preparación de Datos
 
-Identificación y tratamiento de valores nulos y datos inconsistentes.
-Conversión de campos numéricos almacenados como texto (moneda, separadores, “K”, etc.).
-Normalización de variables categóricas (género, estado civil, educación).
+- Identificación y tratamiento de valores nulos y datos inconsistentes.
+- Conversión de campos numéricos almacenados como texto (moneda, separadores, “K”, etc.).
+- Normalización de variables categóricas (género, estado civil, educación).
 Corrección de tipos de datos (string → float / int).
 Imputación de valores faltantes utilizando medidas estadísticas (moda).
 Exportación de datasets limpios a XLSX para su consumo en herramientas de BI.
@@ -28,4 +28,5 @@ data-lake: datos crudos
 data-sets: datasets limpios
 EDA: scripts de limpieza y análisis exploratorio
 ML: modelos de Machine Learning y predicciones
+
 dashboard: dashboards desarrollados en distintas herramientas
