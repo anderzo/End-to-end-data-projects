@@ -16,7 +16,7 @@ No se modifican: sirven como respaldo y punto de partida.
 
 ## data-sets/
 - Guarda copias de los datos limpios, ya sea en:
-- Archivos xlsx (para análisis en Excel, tablas dinámicas o Looker Studio)
+- Archivos xlsx (para análisis en Excel, tablas dinámicas o Looker Studio), csv, json, txt , otros
 - Exportaciones desde base de datos, según el proyecto
   
 ## dashboards/
