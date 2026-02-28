@@ -48,11 +48,6 @@ CREATE TABLE Ventas(
 	constraint ID_Metodo_Pago foreign key (Metodo_Pago) references Metodos_Pago(ID_Metodo_Pago) on delete cascade
 )
 
-ALTER TABLE metodos_pago
-ALTER COLUMN descripcion TYPE TEXT;
-
 select * from ventas
 
-
-TRUNCATE TABLE ventas RESTART IDENTITY;
 
